@@ -1,0 +1,168 @@
+[
+    {
+        "id": "001",
+        "name": "Walk module",
+        "description": "Use Bogaudio walk to generate random slow movements"
+    },
+    {
+        "id": "002",
+        "name": "Liquid filter module",
+        "description": "Try out the liquid filter"
+    },
+    {
+        "id": "003",
+        "name": "Bernoulli gates",
+        "description": "Do something with bernoulli gates"
+    },
+    {
+        "id": "004",
+        "name": "Modulate filter cutoff with sequencer",
+        "description": "Use a sequencer on a filter cutoff to provide accenting or fx"
+    },
+    {
+        "id": "005",
+        "name": "Smooth modulations",
+        "description": "Use Cauldal to provide smooth modulations"
+    },
+    {
+        "id": "006",
+        "name": "Saturate something",
+        "description": "Use Debriatus for the saturate knob"
+    },
+    {
+        "id": "007",
+        "name": "Transpose a sequencer with a sequencer",
+        "description": "Use a 2nd sequencer to transpose a sequence (on some of the steps; use a mix to combine the voltages from the 2 sequencers)"
+    },
+    {
+        "id": "008",
+        "name": "Mix in a random source to a step",
+        "description": "Random note per step mix a random source. Use a VCA to control its amplitude before combined with main sequence."
+    },
+    {
+        "id": "009",
+        "name": "Sequential switch",
+        "description": "Add variation with a sequential switch"
+    },
+    {
+        "id": "010",
+        "name": "Combine sequences with bool logic",
+        "description": "Use bool logic on sequences. Use and from two different sequences"
+    },
+    {
+        "id": "011",
+        "name": "Track-and-hold a sequence",
+        "description": "Use a track-and-hold on a sequence (gate will cause it to stay at certain values)"
+    },
+    {
+        "id": "012",
+        "name": "Generate pitches from an LFO",
+        "description": "Use a S&H on an LFO signal with a clocked gate to generate pitch sequences"
+    },
+    {
+        "id": "013",
+        "name": "Mix sequence gates",
+        "description": "Mix sequence gates to generate different voltages to make melodies"
+    },
+    {
+        "id": "014",
+        "name": "Harmony from single sequence",
+        "description": "Use a single sequence with S&H on different divisions gated each going to a different voice; get harmony from one sequence of notes"
+    },
+    {
+        "id": "015",
+        "name": "Comparator to generate gates",
+        "description": "Use compare module on sequence to generate gates only at certain times. e.g. above threshold goes to one voice and the below threshold goes to another voice"
+    },
+    {
+        "id": "016",
+        "name": "Slope detector from a sequence",
+        "description": "Use Count Modula's Slope Detector from a sequencer generating CV values to trigger two different voices. (Rising triggers one, falling triggers the other)",
+        "suggestedModule": "https://library.vcvrack.com/CountModula/SlopeDetector"
+    },
+    {
+        "id": "017",
+        "name": "Probably trigger a reset",
+        "description": "Use Decima with varying probabilities on steps to trigger a reset on a sequence"
+    },
+    {
+        "id": "018",
+        "name": "Convert triggers into gates",
+        "description": "Dgate converts triggers into gates"
+    },
+    {
+        "id": "019",
+        "name": "Rhythm variations with Step Wave",
+        "description": "Use Step Wave from CV Funk for rhythm variations in sequences"
+    },
+    {
+        "id": "020",
+        "name": "Sequence variations with probability",
+        "description": "Use slips sequencer to make random sequences with optional variations with probability and also modulation variations"
+    },
+    {
+        "id": "021",
+        "name": "Modulate parameters with polyphony LFO",
+        "description": "Use polycon on a polyphony osc and use lfos with poly to modulate different parameters differently"
+    },
+    {
+        "id": "022",
+        "name": "Long clock divisions",
+        "description": "Make different parts fade in and out by long clock divisions or counters (e.g. 32 bars or something)"
+    },
+    {
+        "id": "023",
+        "name": "Bernoulli rhythm",
+        "description": "Make a rhythm with a bernoulli gate or chances"
+    },
+    {
+        "id": "024",
+        "name": "Euclidean rhythms",
+        "description": "Make a rhythm using a module that generates euclidean rhythms"
+    },
+    {
+        "id": "025",
+        "name": "Probably irregular trigger",
+        "description": "Use a clock divider clocked from an irregular trigger (triggered with probability)"
+    },
+    {
+        "id": "026",
+        "name": "Sample-and-hold to trigger",
+        "description": "Use a sample and hold module to trigger a voice (whenever it passes 1v it will be a trig)"
+    },
+    {
+        "id": "027",
+        "name": "Shift register to trigger",
+        "description": "Use output from sample and hold into a shift register that triggers voices"
+    },
+    {
+        "id": "028",
+        "name": "Probably rhythm",
+        "description": "Use a sequencer with probability to generate a rhythm"
+    },
+    {
+        "id": "029",
+        "name": "Irregular triggers with boolean logic",
+        "description": "Use a boolean logic to trigger a voice when two irregular triggers happen at the same time"
+    },
+    {
+        "id": "030",
+        "name": "Comparator to trigger",
+        "description": "Use a comparator to trigger when combination of two other triggers go above/below."
+    },
+    {
+        "id": "031",
+        "name": "Transpose with sample-and-hold values",
+        "description": "Mix a CV sequence with a sample and hold value to transpose it."
+    },
+    {
+        "id": "032",
+        "name": "Bernoulli clock",
+        "description": "Use a bernoulli gate where one side advances one sequence and the other side advances another sequence."
+    },
+    {
+        "id": "033",
+        "name": "Sample-and-hold flip flop gates",
+        "description": "Use a s&h on a flipflop module to generate random timed and sized gates."
+    }
+]

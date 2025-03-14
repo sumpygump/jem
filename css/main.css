@@ -1,0 +1,193 @@
+/* ==========================================================================
+Base styles: opinionated defaults
+========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+Site styles
+========================================================================== */
+
+html {
+    min-height: 100vh;
+    background-image: linear-gradient(0deg, #81c1e1, #c14beb);
+}
+
+html,body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #333333;
+    margin: 0;
+}
+
+.contain {
+    max-width: 1024px;
+    padding: 24px;
+    margin: 0 auto;
+}
+
+.masthead {
+    text-align: center;
+}
+
+.masthead h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.masthead .subtitle {
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 2px;
+    border-radius: 16px;
+    width: 424px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.card-border {
+    background-color: #464646;
+    padding: 13px;
+    border-radius: 16px;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.card-content {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 24px 48px;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.card-design {
+    background-color: #3a3a3a;
+}
+.card-design .card-img {
+    margin: 116px auto;
+    width: 180px;
+}
+.card-img img {
+    width: 100%;
+}
+
+.card .card-icon {
+    width: 70px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+.card-icon img {
+    width: 100%;
+    filter: grayscale(0.8);
+}
+
+.card .card-title {
+    margin: 0;
+    font-size: 38px;
+    line-height: 1.0;
+}
+
+.card .card-body {
+    font-size: 23px;
+    margin-top: 24px;
+}
+
+.card-suggested-module a {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #9a9a9a;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 12px;
+}
+
+.card-contain {
+    width: 424px;
+    height: 564px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    perspective: 150rem;
+    position: relative;
+    box-shadow: none;
+    background: none;
+}
+
+.card-contain .card {
+    transition: all 0.8s ease;
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.card-contain .card_back {
+    transform: rotateY(-180deg);
+}
+
+.card-contain.flipped .card_front {
+    transform: rotateY(180deg);
+}
+
+.card-contain.flipped .card_back {
+    transform: rotateY(0deg);
+}
+
+/* ==========================================================================
+Media queries
+========================================================================== */
+@media only screen and (min-width: 840px) {
+    /* Style adjustments for viewports that meet the condition */
+    .contain {
+        width: 1300px;
+    }
+}
