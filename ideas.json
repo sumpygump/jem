@@ -2,12 +2,14 @@
     {
         "id": "001",
         "name": "Walk module",
-        "description": "Use Bogaudio walk to generate random slow movements"
+        "description": "Use Bogaudio Walk to generate random slow movements.",
+        "suggestedModules": ["Bogaudio/Bogaudio-Walk"]
     },
     {
         "id": "002",
-        "name": "Liquid filter module",
-        "description": "Try out the liquid filter"
+        "name": "Liquid Filter (Ripples) module",
+        "description": "Make something and alter the output with the Liquid Filter module.",
+        "suggestedModules": ["AudibleInstruments/Ripples"]
     },
     {
         "id": "003",
@@ -46,8 +48,8 @@
     },
     {
         "id": "010",
-        "name": "Combine sequences with bool logic",
-        "description": "Use bool logic on sequences. Use and from two different sequences"
+        "name": "Combine sequences with boolean logic",
+        "description": "Use boolean logic on sequences. E.g. Feed two different sequence into an AND output"
     },
     {
         "id": "011",
@@ -67,7 +69,7 @@
     {
         "id": "014",
         "name": "Harmony from single sequence",
-        "description": "Use a single sequence with S&H on different divisions gated each going to a different voice; get harmony from one sequence of notes"
+        "description": "Use a single sequence with sample-and-hold on different divisions gated each going to a different voice; get harmony from one sequence of notes"
     },
     {
         "id": "015",
@@ -78,7 +80,7 @@
         "id": "016",
         "name": "Slope detector from a sequence",
         "description": "Use Count Modula's Slope Detector from a sequencer generating CV values to trigger two different voices. (Rising triggers one, falling triggers the other)",
-        "suggestedModule": "https://library.vcvrack.com/CountModula/SlopeDetector"
+        "suggestedModules": ["CountModula/SlopeDetector"]
     },
     {
         "id": "017",
@@ -88,7 +90,8 @@
     {
         "id": "018",
         "name": "Convert triggers into gates",
-        "description": "Dgate converts triggers into gates"
+        "description": "Use a module that converts a trigger into a gate.",
+        "suggestedModules": ["CountModula/GateModifier", "Bogaudio/Bogaudio-DGate", "DanTModules/BillyG8s", "ML_modules/TrigDelay", "NYSTHI/MultiTriggerDelayer", "NYSTHI/RAEL"]
     },
     {
         "id": "019",
@@ -98,12 +101,14 @@
     {
         "id": "020",
         "name": "Sequence variations with probability",
-        "description": "Use slips sequencer to make random sequences with optional variations with probability and also modulation variations"
+        "description": "Use Slips sequencer to make random sequences with optional variations with probability and also modulation variations",
+        "suggestedModules": ["alefsbits/slips"]
     },
     {
         "id": "021",
         "name": "Modulate parameters with polyphony LFO",
-        "description": "Use polycon on a polyphony osc and use lfos with poly to modulate different parameters differently"
+        "description": "Use Polycon on a polyphony osc and use LFOs with poly to modulate different parameters differently",
+        "suggestedModules": ["Bogaudio/Bogaudio-PolyCon"]
     },
     {
         "id": "022",
@@ -128,22 +133,22 @@
     {
         "id": "026",
         "name": "Sample-and-hold to trigger",
-        "description": "Use a sample and hold module to trigger a voice (whenever it passes 1v it will be a trig)"
+        "description": "Use a sample-and-hold module to trigger a voice (whenever it passes 1v it will be a trig)"
     },
     {
         "id": "027",
         "name": "Shift register to trigger",
-        "description": "Use output from sample and hold into a shift register that triggers voices"
+        "description": "Use output from sample-and-hold into a shift register that triggers voices"
     },
     {
         "id": "028",
         "name": "Probably rhythm",
-        "description": "Use a sequencer with probability to generate a rhythm"
+        "description": "Use a sequencer with probability to generate a rhythm."
     },
     {
         "id": "029",
         "name": "Irregular triggers with boolean logic",
-        "description": "Use a boolean logic to trigger a voice when two irregular triggers happen at the same time"
+        "description": "Use boolean logic to trigger a voice when two irregular triggers happen at the same time."
     },
     {
         "id": "030",
@@ -163,6 +168,36 @@
     {
         "id": "033",
         "name": "Sample-and-hold flip flop gates",
-        "description": "Use a s&h on a flipflop module to generate random timed and sized gates."
+        "description": "Use a sample-and-hold on a flip flop module to generate random timed and sized gates."
+    },
+    {
+        "id": "034",
+        "name": "Sidechain with inverted envelope",
+        "description": "Use an inverted envelope to duck sounds down when a drum hit (or other) sound occurs."
+    },
+    {
+        "id": "035",
+        "name": "Put effects before an envelope",
+        "description": "Apply an envelope after an effect (e.g. reverb/delay) and control its output with an envelope."
+    },
+    {
+        "id": "036",
+        "name": "Euclidean polyrhythm",
+        "description": "Use two euclidean rhythm modules to create a polyrhythm for two voices."
+    },
+    {
+        "id": "037",
+        "name": "Sample-and-hold at audio rates",
+        "description": "Trigger a sample-and-hold at audio rates to get interesting effects on a signal."
+    },
+    {
+        "id": "038",
+        "name": "Envelope on pitch information",
+        "description": "Mix in a generated envelope on pitch information at certain steps to make trills and movements in the pitch."
+    },
+    {
+        "id": "039",
+        "name": "Occassional effect",
+        "description": "Use a divided clock trigger on a VCA bringing in a signal from an effect only at certain times."
     }
 ]
