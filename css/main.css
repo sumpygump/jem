@@ -143,11 +143,19 @@ html {
     margin-top: 24px;
 }
 
+.card-suggested-module {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .card-suggested-module a {
+    display: block;
     text-decoration: none;
     color: #ffffff;
-    background-color: #9a9a9a;
+    background-color: #5a5a5a;
     padding: 2px 8px;
+    margin-right: 4px;
+    margin-bottom: 4px;
     border-radius: 12px;
     font-size: 12px;
 }
@@ -164,7 +172,7 @@ html {
 }
 
 .card-contain .card {
-    transition: all 0.8s ease;
+    transition: all 0.3s ease;
     backface-visibility: hidden;
     position: absolute;
     top: 0;
@@ -183,6 +191,38 @@ html {
 
 .card-contain.flipped .card_back {
     transform: rotateY(0deg);
+}
+
+.btn {
+    position: relative;
+    border: none;
+    border-radius: 7px;
+    border-bottom: 3px solid #999999;
+    background-color: #ffffff;
+    color: #161616;
+    padding: 8px 20px;
+    font-size: 16px;
+}
+
+.btn,
+.btn:focus {
+  user-select: auto;
+}
+
+.btn:hover:not(:disabled) {
+  filter: brightness(1.1);
+  -webkit-filter: brightness(1.1);
+}
+
+.btn:disabled {
+  cursor: auto;
+}
+
+.btn:active {
+    top: 3px;
+    border-width: 4px 0 0;
+    border-bottom: none;
+    margin-bottom: 3px;
 }
 
 /* ==========================================================================
