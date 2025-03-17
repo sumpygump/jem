@@ -1,40 +1,41 @@
 [
     {
         "id": "001",
-        "name": "Walk module",
-        "description": "Use Bogaudio Walk to generate random slow movements.",
-        "suggestedModules": ["Bogaudio/Bogaudio-Walk"]
+        "name": "Smooth modulations",
+        "description": "Use a module like Walk or Cauldal to generate random slow movements.",
+        "suggestedModules": ["Bogaudio/Bogaudio-Walk", "VultModulesFree/Caudal"]
     },
     {
         "id": "002",
-        "name": "Liquid Filter (Ripples) module",
-        "description": "Make something and alter the output with the Liquid Filter module.",
-        "suggestedModules": ["AudibleInstruments/Ripples"]
+        "name": "Use a filter",
+        "description": "Make something and alter the output with a filter module."
     },
     {
         "id": "003",
         "name": "Bernoulli gates",
-        "description": "Do something with bernoulli gates"
+        "description": "Do something with bernoulli gates.",
+        "suggestedModules": ["AudibleInstruments/Branches", "CountModula/Chances", "Tyche/Fate", "Geodesics/Fate"]
     },
     {
         "id": "004",
         "name": "Modulate filter cutoff with sequencer",
-        "description": "Use a sequencer on a filter cutoff to provide accenting or fx"
+        "description": "Use a sequencer on a filter cutoff to provide accenting or effects on a signal."
     },
     {
         "id": "005",
-        "name": "Smooth modulations",
-        "description": "Use Cauldal to provide smooth modulations"
+        "name": "New oscillator",
+        "description": "Use an oscillator module you have never used before."
     },
     {
         "id": "006",
         "name": "Saturate something",
-        "description": "Use Debriatus for the saturate knob"
+        "description": "Use Debriatus for the saturate knob.",
+        "suggestedModules": ["VultModulesFree/Debriatus"]
     },
     {
         "id": "007",
         "name": "Transpose a sequencer with a sequencer",
-        "description": "Use a 2nd sequencer to transpose a sequence (on some of the steps; use a mix to combine the voltages from the 2 sequencers)"
+        "description": "Use a 2nd sequencer to transpose a sequence (on some of the steps; use a mix to combine the voltages from the 2 sequencers)."
     },
     {
         "id": "008",
@@ -44,32 +45,33 @@
     {
         "id": "009",
         "name": "Sequential switch",
-        "description": "Add variation with a sequential switch"
+        "description": "Add variation with a sequential switch.",
+        "suggestedModules": ["Fundamental/SequentialSwitch2", "ML_modules/SeqSwitch", "SynthesizersDotCom/Q962"]
     },
     {
         "id": "010",
         "name": "Combine sequences with boolean logic",
-        "description": "Use boolean logic on sequences. E.g. Feed two different sequence into an AND output"
+        "description": "Use boolean logic on sequences. E.g. Feed two different sequence into an AND output."
     },
     {
         "id": "011",
         "name": "Track-and-hold a sequence",
-        "description": "Use a track-and-hold on a sequence (gate will cause it to stay at certain values)"
+        "description": "Use a track-and-hold on a sequence (gate will cause it to stay at certain values)."
     },
     {
         "id": "012",
         "name": "Generate pitches from an LFO",
-        "description": "Use a S&H on an LFO signal with a clocked gate to generate pitch sequences"
+        "description": "Use a sample-and-hold on an LFO signal with a clocked gate to generate pitch sequences."
     },
     {
         "id": "013",
         "name": "Mix sequence gates",
-        "description": "Mix sequence gates to generate different voltages to make melodies"
+        "description": "Mix sequence gates to generate different voltages to make melodies."
     },
     {
         "id": "014",
         "name": "Harmony from single sequence",
-        "description": "Use a single sequence with sample-and-hold on different divisions gated each going to a different voice; get harmony from one sequence of notes"
+        "description": "Use a single sequence with sample-and-hold on different divisions gated each going to a different voice; get harmony from one sequence of notes."
     },
     {
         "id": "015",
@@ -97,7 +99,7 @@
     {
         "id": "019",
         "name": "Rhythm variations with Step Wave",
-        "description": "Use Step Wave from CV Funk for rhythm variations in sequences"
+        "description": "Use Step Wave from CV Funk for rhythm variations in sequences."
     },
     {
         "id": "020",
@@ -119,27 +121,28 @@
     {
         "id": "023",
         "name": "Bernoulli rhythm",
-        "description": "Make a rhythm with a bernoulli gate or chances"
+        "description": "Make a rhythm with a bernoulli gate or chances.",
+        "suggestedModules": ["AudibleInstruments/Branches", "CountModula/Chances", "Tyche/Fate", "Geodesics/Fate"]
     },
     {
         "id": "024",
         "name": "Euclidean rhythms",
-        "description": "Make a rhythm using a module that generates euclidean rhythms"
+        "description": "Make a rhythm using a module that generates euclidean rhythms."
     },
     {
         "id": "025",
         "name": "Probably irregular trigger",
-        "description": "Use a clock divider clocked from an irregular trigger (triggered with probability)"
+        "description": "Use a clock divider clocked from an irregular trigger (triggered with probability)."
     },
     {
         "id": "026",
-        "name": "Sample-and-hold to trigger",
-        "description": "Use a sample-and-hold module to trigger a voice (whenever it passes 1v it will be a trig)"
+        "name": "Sample-and-hold to gate",
+        "description": "Use a sample-and-hold module to trigger a voice (whenever it passes 1v it will be a gate)."
     },
     {
         "id": "027",
         "name": "Shift register to trigger",
-        "description": "Use output from sample-and-hold into a shift register that triggers voices"
+        "description": "Use output from sample-and-hold into a shift register that triggers voices."
     },
     {
         "id": "028",
@@ -159,12 +162,13 @@
     {
         "id": "031",
         "name": "Transpose with sample-and-hold values",
-        "description": "Mix a CV sequence with a sample and hold value to transpose it."
+        "description": "Mix a CV sequence with a sample-and-hold value to transpose it."
     },
     {
         "id": "032",
         "name": "Bernoulli clock",
-        "description": "Use a bernoulli gate where one side advances one sequence and the other side advances another sequence."
+        "description": "Use a bernoulli gate where one side advances one sequence and the other side advances another sequence.",
+        "suggestedModules": ["AudibleInstruments/Branches", "CountModula/Chances", "Tyche/Fate", "Geodesics/Fate"]
     },
     {
         "id": "033",
@@ -206,5 +210,11 @@
         "name": "Modulate a parameter anyway",
         "description": "Use (µMAP) micro-map to modulate a parameter that doesn't have a CV input to control.",
         "suggestedModules": ["Stoermelder-P1/CVMapMicro"]
+    },
+    {
+        "id": "041",
+        "name": "What the Rack?",
+        "description": "Use 'What the Mod' to spawn in random modules and build a patch from what you get.",
+        "suggestedModules": ["WhatTheRack/WhatTheMod"]
     }
 ]
