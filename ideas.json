@@ -85,7 +85,8 @@
     {
         "id": "017",
         "name": "Probably trigger a reset",
-        "description": "Use Decima with varying probabilities on steps to trigger a reset on a sequence"
+        "description": "Use Decima with varying probabilities on steps to trigger a reset on a sequence.",
+        "suggestedModules": ["CVfunk/Decima"]
     },
     {
         "id": "018",
@@ -100,9 +101,9 @@
     },
     {
         "id": "020",
-        "name": "Sequence variations with probability",
-        "description": "Use Slips sequencer to make random sequences with optional variations with probability and also modulation variations",
-        "suggestedModules": ["alefsbits/slips"]
+        "name": "Sequence variations with Turing machine",
+        "description": "Use Slips, Turing machine or Permuation to make random sequences with optional variations with probability and also modulation variations.",
+        "suggestedModules": ["alefsbits/slips", "StellareModular/TuringMachine", "Grayscale/Permutation18"]
     },
     {
         "id": "021",
@@ -197,7 +198,13 @@
     },
     {
         "id": "039",
-        "name": "Occassional effect",
+        "name": "Occasional effect",
         "description": "Use a divided clock trigger on a VCA bringing in a signal from an effect only at certain times."
+    },
+    {
+        "id": "040",
+        "name": "Modulate a parameter anyway",
+        "description": "Use (µMAP) micro-map to modulate a parameter that doesn't have a CV input to control.",
+        "suggestedModules": ["Stoermelder-P1/CVMapMicro"]
     }
 ]
