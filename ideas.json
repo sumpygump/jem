@@ -14,7 +14,7 @@
         "id": "003",
         "name": "Bernoulli gates",
         "description": "Do something with bernoulli gates.",
-        "suggestedModules": ["AudibleInstruments/Branches", "CountModula/Chances", "Tyche/Fate", "Geodesics/Fate"]
+        "suggestedModules": ["AudibleInstruments/Branches", "AudibleInstruments/Marbles", "CountModula/Chances", "Tyche/Fate", "Geodesics/Fate"]
     },
     {
         "id": "004",
@@ -216,5 +216,10 @@
         "name": "What the Rack?",
         "description": "Use 'What the Mod' to spawn in random modules and build a patch from what you get.",
         "suggestedModules": ["WhatTheRack/WhatTheMod"]
+    },
+    {
+        "id": "042",
+        "name": "Modulated sample-and-hold feedback",
+        "description": "Use a sample-and-hold module triggered by an LFO pulse wave, but modulate the LFO frequency by the output of the sample-and-hold."
     }
 ]
