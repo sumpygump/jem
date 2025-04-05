@@ -2,8 +2,8 @@
     {
         "id": "001",
         "name": "Smooth modulations",
-        "description": "Use a module like Walk or Cauldal to generate random slow movements.",
-        "suggestedModules": ["Bogaudio/Bogaudio-Walk", "VultModulesFree/Caudal"]
+        "description": "Use a module like Random, RndC, Walk or Caudal to generate random slow movements.",
+        "suggestedModules": ["Fundamental/Random", "NANOModules/VCVRANDOM", "Bogaudio/Bogaudio-Walk", "VultModulesFree/Caudal", "dbRackModules/RndC"]
     },
     {
         "id": "002",
@@ -104,7 +104,7 @@
     {
         "id": "020",
         "name": "Sequence variations with Turing machine",
-        "description": "Use Slips, Turing machine or Permuation to make random sequences with optional variations with probability and also modulation variations.",
+        "description": "Use Slips, Turing machine or Permutation to make random sequences with optional variations with probability and also modulation variations.",
         "suggestedModules": ["alefsbits/slips", "StellareModular/TuringMachine", "Grayscale/Permutation18"]
     },
     {
@@ -221,5 +221,37 @@
         "id": "042",
         "name": "Modulated sample-and-hold feedback",
         "description": "Use a sample-and-hold module triggered by an LFO pulse wave, but modulate the LFO frequency by the output of the sample-and-hold."
+    },
+    {
+        "id": "043",
+        "name": "Ring modulator",
+        "description": "Use a ring modulator module to add an effect to a voice.",
+        "suggestedModules": ["MSM/Ring", "SurgeXTRack/SurgeXTFXRingMod", "FrozenWasteland/TheOneRingModulator", "Bogaudio/Bogaudio-AMRM", "Valley/Amalgam"]
+    },
+    {
+        "id": "044",
+        "name": "Frequency modulation",
+        "description": "Build a voice utilizing frequency modulation."
+    },
+    {
+        "id": "045",
+        "name": "Reverb into distortion",
+        "description": "Make a big voice by passing the signal through reverb and then through distortion."
+    },
+    {
+        "id": "046",
+        "name": "Send highs through delay",
+        "description": "Send just the high frequencies from a voice to a delay module to get a cool effect."
+    },
+    {
+        "id": "047",
+        "name": "Extract rhythm from complex modulation",
+        "description": "Create a complex modulation with 2 LFOs feeding back on each other (FM) and use a comparator from that signal to clock another voice.",
+        "suggestedModules": ["Fundamental/Compare", "CountModula/Comparator", "LilacModules/Comparator", "HetrickCV/Comparator", "GrandeModular/Compare3", "Bogaudio/Bogaudio-Edge"]
+    },
+    {
+        "id": "048",
+        "name": "Just explore a plugin",
+        "description": "Pick a random plugin collection and build something using its modules"
     }
 ]
