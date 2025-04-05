@@ -108,6 +108,7 @@ html {
     padding: 24px 48px;
     height: 100%;
     box-sizing: border-box;
+    overflow-y: auto;
 }
 
 .card-design {
