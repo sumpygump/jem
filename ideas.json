@@ -252,6 +252,11 @@
     {
         "id": "048",
         "name": "Just explore a plugin",
-        "description": "Pick a random plugin collection and build something using its modules"
+        "description": "Pick a random plugin collection and build something using its modules."
+    },
+    {
+        "id": "049",
+        "name": "Audio rate sequence",
+        "description": "Use a sequencer at audio rates to generate a oscillator."
     }
 ]
