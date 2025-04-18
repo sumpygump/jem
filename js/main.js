@@ -9,6 +9,21 @@ const ready = (fn) => {
     else document.addEventListener('DOMContentLoaded', fn);
 };
 
+
+// Register the service worker
+if ('serviceWorker' in navigator) {
+    // Wait for the 'load' event to not block other work
+    window.addEventListener('load', async () => {
+        // Try to register the service worker.
+        try {
+            let reg = await navigator.serviceWorker.register('sw.js');
+            console.log('Service worker registered! 😎', reg);
+        } catch (err) {
+            console.log('😥 Service worker registration failed: ', err);
+        }
+    });
+}
+
 function shuffle(array) {
     let i = array.length;
     while (i != 0) {

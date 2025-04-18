@@ -1,0 +1,19 @@
+{
+    "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+    "name": "Just explore modular",
+    "short_name": "Jem",
+    "scope": "/jem/",
+    "start_url": "/jem/?source=jem-pwa",
+    "id": "/jem/?source=jem-pwa",
+    "display": "standalone",
+    "background-color": "#81c1e1",
+    "theme_color": "#202020",
+    "description": "Inspiration and ideas for exploring your modular synthesizer",
+    "icons": [
+        {
+            "src": "apple-touch-icon.png",
+            "sizes": "360x360",
+            "type": "image/png"
+        }
+    ]
+}
